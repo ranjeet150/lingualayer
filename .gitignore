@@ -10,8 +10,6 @@ dist/
 build/
 
 # Env
-.env
-.env.*
 !.env.example
 
 # Logs & coverage
@@ -29,7 +27,6 @@ target/
 # IDE / OS
 .DS_Store
 .idea/
-.vscode/
 *.swp
 Thumbs.db
 
@@ -43,3 +40,4 @@ Cargo.lock
 # Deploy script output (live contract IDs per run — see contracts/deployments/README.md)
 contracts/deployments/*.env
 contracts/data-commission/test_snapshots/
+config.bat
